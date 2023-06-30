@@ -4,6 +4,7 @@
 .card{
     width: 360px;
     background-color: rgb(255, 255, 255);
+    text-align: center;
 }
 a{ 
     display: inline-block;
