@@ -51,6 +51,8 @@ if ((edadPersona >=6) && ( edadPersona <= 11))
    }else {
        alert("acceso denegado")
    }
+    /* 7 */
+    function calculodescuento (edad, precio) 
    /* 8 */
 let nota= prompt("ingrese una nota del 0 a 100")
 
