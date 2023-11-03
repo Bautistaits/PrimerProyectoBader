@@ -51,24 +51,43 @@ if ((edadPersona >=6) && ( edadPersona <= 11))
    }else {
        alert("acceso denegado")
    }
-    /* 7 */
-    function calculodescuento (edad, precio) 
-   /* 8 */
-let nota= prompt("ingrese una nota del 0 a 100")
+    
 
 
-if ((nota >=80) && ( nota <= 100))
+ 
+/*6 */
+function multiplo(numero)
+
+{if( numero / 5 == 0 )
 {
-    alert ('sacaste un MS')
-} else if 
-    ((nota >=60) && ( nota  <= 80))
-    {
-        alert ('Sacaste un S')
-    } else if
-    ((nota >=0) && ( nota <= 59))
-    {
-        alert ("desaprobaste")
-    } 
+return 'es multiplo'
+}else{
+
+}
+}
+return 'no es multiplo'
+
+/* 7*/
+function calculodescuento (edad,precio)
+{
+  if (edad > 65 )
+{
+return (precio * 0,9)
+} else { 
+}
+}
+
+/* 8 */
+function categorianota(nota){
+if(nota < 60 ){
+    return 'ep'      
+}else if (nota < 80)
+   { return 's'}
+else {
+    return "ms"
+}
+
+}
 
     /* 9 */
 let semana =prompt("ingrese un numero del 1 al 7 para indicar un dia")
@@ -87,7 +106,20 @@ if(semana = 1){
 }else {
     alert("es domingo")
 }
+/* 10 */
+function añoBisiesto (año)
+{
+    if ((año / 400 == 0) || (año /4 == 0) && (año / 100 > 0))
+    
+{ 
+    return 'Es año bisiesto'
+}else{
+    return 'No es año bisisesto'
+}
 
+
+}
+/* 11 */
 /* 12 */
 let Edad= prompt("ingrese su año de nacimiento")
 let añoactual= 2023
